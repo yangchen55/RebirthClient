@@ -140,7 +140,8 @@ const Header = () => {
                         </Box>
 
 
-                        <Box sx={{ display: 'flex', width: '20%', alignContent: "flex-end" }}>
+
+                        <Box sx={{ display: { xs: "none", md: 'flex', width: '20%', alignContent: "flex-end" } }} >
                             <CustomButton>try for free</CustomButton>
                             <CustomButton>deliver to</CustomButton>
                             <CustomButton>sign in</CustomButton>
